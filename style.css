@@ -3,9 +3,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 header {
-    height: 911px;
-    width: 1458px;
-    background-image: url("/img/Background.png");
+    height: 700px;
+    width: 1440px;
+    background: url("/img/Background.png") no-repeat;
 }
 .logo-text {
     position: absolute;
