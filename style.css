@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    height: 911px;
+    width: 1458px;
+    background-image: url("/img/Background.png");
+}
+.logo-text {
+    position: absolute;
+    width: 152px;
+    height: 25px;
+    left: 248px;
+    top: 79px;
+}
+
+.login {
+    font-size: 14px;
+}
+
+
+.btn red-btn {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.red-btn {
+    background: #FF4E50;
+    border-radius: 40px;
+    width: 225px;
+    height: 40px;
+    left: 608px;
+    top: 436px;
+}
