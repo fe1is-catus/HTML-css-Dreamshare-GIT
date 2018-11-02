@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
     <title>Dreamshare</title>
 </head>
 <body>
@@ -14,17 +15,17 @@
     <header>
         <div class="header-top">
             <div class="logo-wrapper">
-                <span class="logo-text">Dreamshare</span>
+                <span class="logo-text">DREAMSHARE</span>
             </div>
             <div class="login" >
-                <button class="login-btn">Login</button>
+                <a class="login-btn">Login</a>
                 <button class="btn signup-btn">Sign Up</button>
             </div>
         </div>
         <div class="banner-bottom">
             <h1 class="header-title">SHARE YOUR HOLIDAY DREAM</h1>
             <p class="header-subtitle">And find the perfect partner to fullfill it</p>
-            <a class="btn red-btn" href="#">Find your holiday partner</a>
+            <button class="btn red-btn" href="#">Find your holiday partner</button>
         </div>
     </header>
     <main>
@@ -33,24 +34,30 @@
                 <h2 class="how-it-works-title-text">How Dreamshare works</h2>
                 <div class="how-it-works-steps">
                     <div class="how-it-works-step-1">
-                        <div class="banner-how-it-works-step-1">
+                        <div class="banner-how-it-works-step-item">
+                            <img src="img/step1.png" alt="step1" class="step1-img">
                             <button class="btn step-btn">Step 1</button>
-                            <h2 class="how-it-works-step-1-header">Sed leo enim, condim</h2>
-                            <span class="how-it-works-step-1-text">Quisque libero liber</span>
+                            <h3 class="how it-works-step-1-header">Sed leo enim, condimentum</h3>
+                            <span class="how it-works-step-1-text">Quisque libero libero, dictum non turpis in,
+                                luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
                         </div>
                     </div>
                     <div class="how-it-works-step-2">
-                        <div class="banner-how-it-works-step-2">
+                        <div class="banner-how-it-works-step-item">
+                            <img src="img/step2.png" alt="step2" class="step2-img">
                             <button class="btn step-btn">Step 2</button>
-                            <h2 class="how-it-works-step-2-header">Morbi velit risus</h2>
-                            <span class="how-it-works-step-2-text">Nulla venenatis temp</span>
+                            <h3 class="how it-works-step-2-header">Morbi velit risus</h3>
+                            <span class="how it-works-step-2-text">Nulla venenatis tempor dui in molestie.
+                                Nulla quis dictum purus, sit amet porttitor est.</span>
                         </div>
                     </div>
                     <div class="how-it-works-step-3">
-                        <div class="banner-how-it-works-step-3">
+                        <div class="banner-how-it-works-step-item">
+                            <img src="img/step3.png" alt="step3" class="step3-img">
                             <button class="btn step-btn">Step 3</button>
-                            <h2 class="how-it-works-step-3-header">Sed leo enim, condim</h2>
-                            <span class="how-it-works-step-3-text">Quisque libero liber</span>
+                            <h3 class="how it-works-step-3-header">Sed leo enim, condimentum</h3>
+                            <span class="how it-works-step-3-text">Quisque libero libero, dictum non turpis in,
+                                luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</span>
                     </div>
                     </div>
 
@@ -62,56 +69,57 @@
             <div class="partners">
                 <h2 class="partners-title-text">Meet a partner for your best holiday</h2>
                 <div class="partners-items">
-                    <div class="partner-1">
+                    <div class="partner-container">
                         <div class="partner-avatar">
                             <div class="partner-avatar-photo-1">
-                                <img src="#">
+                                <img src="img/partner-avatar-photo-1.png" alt="avatar-photo-1" class="partner-avatar">
                             </div>
                             <div class="partner-avatar-logo-1">
                                 <img src="#">
                             </div>
                         </div>
-                        <h3 class="partner-1-header">Bradley Hunter</h3>
-                        <span class="partner-1-text">Based in Chicago. I love playing tennis and loud music.</span>
+                        <h3 class="partner 1-header">Bradley Hunter</h3>
+                        <span class="partner 1-text">Based in Chicago. I love playing tennis and loud music.</span>
                     </div>
-                    <div class="partner-2">
+                    <div class="partner-container">
                         <div class="partner-avatar">
                             <div class="partner-avatar-photo-2">
-                                <img src="#">
+                                <img src="img/partner-avatar-photo-2.png" alt="avatar-photo-2" class="partner-avatar">
                             </div>
                             <div class="partner-avatar-logo-2">
                                 <img src="#">
                             </div>
                         </div>
-                        <h3 class="partner-2-header">Marie Bennett</h3>
-                        <span class="partner-2-text">Currently living in Colorado. Lover of art, languages and travelling.</span>
+                        <h3 class="partner 2-header">Marie Bennett</h3>
+                        <span class="partner 2-text">Currently living in Colorado. Lover of art, languages and travelling.</span>
                     </div>
-                    <div class="partner-3">
+                    <div class="partner-container">
                         <div class="partner-avatar">
                             <div class="partner-avatar-photo-3">
-                                <img src="#">
+                                <img src="img/partner-avatar-photo-3.png" alt="avatar-photo-3" class="partner-avatar">
                             </div>
                             <div class="partner-avatar-logo-3">
                                 <img src="#">
                             </div>
                         </div>
-                        <h3 class="partner-3-header">Diana Wells</h3>
-                        <span class="partner-3-text">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</span>
+                        <h3 class="partner 3-header">Diana Wells</h3>
+                        <span class="partner 3-text">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</span>
                     </div>
-                    <div class="partner-4">
+                    <div class="partner-container">
                         <div class="partner-avatar">
                             <div class="partner-avatar-photo-4">
-                                <img src="#">
+                                <img src="img/partner-avatar-photo-4.png" alt="avatar-photo-4" class="partner-avatar">
                             </div>
                             <div class="partner-avatar-logo-4">
                                 <img src="#">
                             </div>
                         </div>
-                        <h3 class="partner-4-header">Christopher Pierce</h3>
-                        <span class="partner-4-text">Star Wars fanatic. I have a persistent enthusiasm to create new things.</span>
+                        <h3 class="partner 4-header">Christopher Pierce</h3>
+                        <span class="partner 4-text">Star Wars fanatic. I have a persistent enthusiasm to create new things.</span>
                     </div>
 
                 </div>
+                <div class="other-partners">
                     <button class="btn other-partners">See other partners</button>
                 </div>
 

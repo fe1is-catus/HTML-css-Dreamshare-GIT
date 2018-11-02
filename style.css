@@ -2,36 +2,208 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-header {
-    height: 700px;
-    width: 1440px;
-    background: url("/img/Background.png") no-repeat;
-}
-.logo-text {
-    position: absolute;
-    width: 152px;
-    height: 25px;
-    left: 248px;
-    top: 79px;
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    background: url("./img/Background.png") no-repeat;
+    height: 700px;
+    background-size: 100%;
+    opacity: 0.8;
+    color: white;
+         }
+
+.header-top {
+    padding-top: 71px;
+    display: flex;
+    justify-content:space-around;
+             }
+
+    /* Распологаем лого */
+/*  Почему ширина и высота блока ничего не меняет? Что предопределяет её?
+   width: 152px;
+   height: 25px;
+} */
+
+.logo-text{
+/*position: absolute; не поняла, когда нужно или нет использовать позиционирование*/
+font-size: 20px;
+font-weight: bold;
+           }
+/* Почему располагается не так, как на макете? */
+
+/* Общие настройки для блока login */
 .login {
     font-size: 14px;
+    color: #FFFFFF;
+        }
+/* Почему располагается не так, как на макете? */
+
+.login-btn {
+    /*position: absolute;*/
+    left: 1005px;
+    height: 18px;
+    top: 49px;
 }
+/* Почему располагается не так, как на макете? */
+.signup-btn {
+    /*position: absolute;*/
+    width: 90px;
+    height: 36px;
+    left: 1077px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    font-weight: 55px;
+    color: #FFFFFF;
+    top: 40px;
+    background:transparent;
+    }
+/* Почему располагается не так, как на макете? */
 
-
-.btn red-btn {
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
+.banner-bottom{
+    margin-top: 143px;
     text-align: center;
+    color: #FFFFFF;
 }
-.red-btn {
+
+.header-title{
+    display: inline-block;
+    width: 470px;
+    height: 127px;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    font-size: 52px;
+                }
+
+.header-subtitle {
+    margin-top: 27px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 24px;
+    color: #F7F3F2;
+}
+
+.red-btn{
     background: #FF4E50;
     border-radius: 40px;
     width: 225px;
     height: 40px;
-    left: 608px;
-    top: 436px;
+    border: 2px solid #FF4E50;
+    font-weight: bold;
+    color: #FFFFFF;
 }
+/* Закончили header верстать */
+
+
+/* Блок  how-it-works. Заголовок*/
+
+.how-it-works-title-text{
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 35px;
+    }
+
+/* Делаем флекс-контейнер */
+.how-it-works-steps{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 94px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+   }
+
+/* Как сделать затемнение картинке? */
+
+.banner-how-it-works-step-item {
+    width: 300px;
+    position: relative;
+    }
+
+h3.how {
+    top: 254px;
+    margin-left: 25px;
+    font-weight: bold;
+    line-height: 14px;
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+span.how {
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 14px;
+    font-size: 14px;
+    color: #FFFFFF;
+    top: 322px;
+    margin-left: 25px;
+    position: absolute;
+    }
+.btn.step-btn{
+    position: absolute;
+    background: #FF4E50;
+    border-radius: 40px;
+    border: 2px solid #FF4E50;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 70px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 2px;
+    top: 219px;
+    margin-left: 25px;
+}
+
+/* Как сделать одинаковое и нужное расстояние между флекс блоками? */
+
+.partners-title-text {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+
+.partners-items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 94px;
+    align-items: center;
+}
+
+.partner-container {
+    text-align: center;
+    }
+
+.partner-avatar {
+    border-radius: 100px;
+    text-align: center;
+}
+
+h3.partner {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+span.partner {
+    display: inline-block;
+    width: 221px;
+    height: 57px;
+
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 14px;
+    font-size: 14px;
+    text-align: center;
+    }
